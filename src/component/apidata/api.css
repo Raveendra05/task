@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,17rem);
+    align-items: center;
+    justify-content: center;
+    column-gap: 5rem;
+    row-gap: 2rem;
+    border: none;
+}
+.card-body{
+    border: 1px solid skyblue;
+    border-radius: 1rem;
+}
+.img{
+    width: 15rem;
+}
+.btn{
+    color: white;
+}
+.heading{
+    font-weight: bold;
+    /* border: 1px solid black; */
+    /* padding: 3rem; */
+    margin: 1rem;
+}
